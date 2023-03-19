@@ -8,6 +8,7 @@ pro:
   script:
     - cd /home/groofi/project
     - git status
+    - ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
     - git pull origin master
     - source venv/bin/activate
     - python manage.py makemigrations
