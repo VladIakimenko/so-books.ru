@@ -13,5 +13,5 @@ pro:
     - python manage.py makemigrations
     - python manage.py migrate
     - pip install -r requirements.txt
-    - sudo systemctl reset hermes
-    - sudo systemctl reset nginx
+    - systemctl reset hermes
+    - systemctl reset nginx
