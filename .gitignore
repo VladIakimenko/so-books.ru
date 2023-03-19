@@ -1,0 +1,7 @@
+.env
+.idea
+venv
+static
+media
+**/__pycache__/
+db.json

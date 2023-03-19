@@ -1,0 +1,12 @@
+build-job:
+  stage: .pre
+  script:
+    - echo "GOOD"
+    - echo "'$SSH_KEY'"
+pro:
+  stage: deploy
+  script:
+    - cd /home/groofi/project
+    - git status
+    - git pull origin master
+    - echo "GOOD"
