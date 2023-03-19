@@ -9,4 +9,7 @@ pro:
     - cd /home/groofi/project
     - git status
     - git pull origin master
-    - echo "GOOD"
+    - source venv/bin/activate
+    - python manage.py makemigrations
+    - python manage.py migrate
+    - pip install -r requirements
