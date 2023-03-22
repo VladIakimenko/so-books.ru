@@ -7,7 +7,7 @@ from books.models import Books, Photos, Boxes
 class BooksAdmin(admin.ModelAdmin):
     list_display_links = ('name',)
     list_display = ('name', 'author',)
-    fields = ('author', 'name', 'made_in', 'year', 'management', 'box')
+    fields = ('author', 'name', 'made_in', 'year', 'box')
     ordering = ('name',)
     
     def get_queryset(self, request):
