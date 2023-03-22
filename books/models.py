@@ -14,7 +14,7 @@ class Boxes(models.Model):
 
     class Meta:
         ordering = ["name"]
-        verbose_name = "Коробка"
+        verbose_name = "Коробку"
         verbose_name_plural = "Коробки"
 
 
@@ -23,7 +23,7 @@ class Books(models.Model):
     name = models.CharField(verbose_name="Название книги", max_length=128)
     made_in = models.CharField(verbose_name="Издательство", max_length=64)
     year = models.PositiveIntegerField(verbose_name="Год выпуска")
-    box = models.ForeignKey(Boxes, on_delete=models.SET_NULL, null=True, verbose_name="Коробка, где лежит книга")
+    box = models.ForeignKey(Boxes, on_delete=models.SET_NULL, null=True, verbose_name="Коробка")
 
     def __str__(self):
         return self.name
