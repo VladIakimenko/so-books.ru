@@ -14,7 +14,7 @@ class Boxes(models.Model):
 
     class Meta:
         ordering = ["name"]
-        verbose_name = "Коробку"
+        verbose_name = "Коробка"
         verbose_name_plural = "Коробки"
 
 
