@@ -12,4 +12,6 @@ pro:
     - source venv/bin/activate
     - python manage.py makemigrations
     - python manage.py migrate
-    - pip install -r requirements
+    - pip install -r requirements.txt
+    - sudo systemctl restart hermes
+    - sudo systemctl restart nginx
