@@ -1,12 +1,11 @@
 from django.contrib import admin
-from django import forms
 from books.models import Books, Photos, Boxes
 
 
 @admin.register(Books)
 class BooksAdmin(admin.ModelAdmin):
     list_display_links = ('name',)
-    list_display = ('name', 'author',)
+    list_display = ('name', 'author', 'box')
     fields = ('author', 'name', 'made_in', 'year', 'box')
     ordering = ('name',)
     
