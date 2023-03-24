@@ -1,4 +1,5 @@
 DEBUG = False
-ALLOWED_HOSTS = ['80.78.246.159', "home-sobolev.ru", "hermes.home-sobolev.ru", "213.189.201.49"]
-CSRF_TRUSTED_ORIGINS = ['https://home-sobolev.ru', 'https://hermes.home-sobolev.ru', 'https://80.78.246.159',
-                        "http://213.189.201.49"]
+ALLOWED_HOSTS = ['80.78.246.159', "213.189.201.49", "home-sobolev.ru", "hermes.home-sobolev.ru"]
+CSRF_TRUSTED_ORIGINS = ['https://home-sobolev.ru', 'http://home-sobolev.ru',
+                        'https://hermes.home-sobolev.ru', 'http://hermes.home-sobolev.ru',
+                        'http://80.78.246.159', "http://213.189.201.49"]
