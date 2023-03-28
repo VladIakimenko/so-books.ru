@@ -4,6 +4,8 @@ from books.models import Books, Photos, Boxes
 
 
 class BooksSerializer(serializers.HyperlinkedModelSerializer):
+    box = serializers.CharField(source="box.name", read_only=True)
+    
     class Meta:
         model = Books
         fields = ["author", "name", "box", "made_in", "year"]
