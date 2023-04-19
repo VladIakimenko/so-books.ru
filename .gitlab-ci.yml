@@ -8,7 +8,7 @@ pro:
   script:
     - cd /home/groofi/project
     - git status
-    - git pull origin master
+    - git pull hermes master
     - source venv/bin/activate
     - python manage.py makemigrations
     - python manage.py migrate
