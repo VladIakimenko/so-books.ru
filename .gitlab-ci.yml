@@ -15,3 +15,4 @@ pro:
     - pip install -r requirements.txt
     - sudo systemctl restart hermes
     - sudo systemctl restart nginx
+
