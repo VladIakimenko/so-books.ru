@@ -4,6 +4,7 @@ from books.models import Books, Photos, Boxes
 
 
 class BooksSerializer(serializers.HyperlinkedModelSerializer):
+
     box = serializers.SerializerMethodField()
     id = serializers.IntegerField(source='pk', read_only=True)
     

@@ -11,13 +11,6 @@ if os.path.exists(DOTENV_PATH):
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:8000",
-    "http://127.0.0.1:9000",
-    "http://127.0.0.1",
-]
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
