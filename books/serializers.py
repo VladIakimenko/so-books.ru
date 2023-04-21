@@ -4,15 +4,14 @@ from books.models import Books, Photos, Boxes
 
 
 class BooksSerializer(serializers.HyperlinkedModelSerializer):
-
-    box = serializers.SerializerMethodField()
+    box_name = serializers.SerializerMethodField()
     id = serializers.IntegerField(source='pk', read_only=True)
     
     class Meta:
         model = Books
-        fields = ["id", "author", "name", "box", "made_in", "year"]
+        fields = ["id", "author", "name", "box_name", "made_in", "year"]
         
-    def get_box(self, obj):
+    def get_box_name(self, obj):
         return obj.box.name if obj.box else None
 
 

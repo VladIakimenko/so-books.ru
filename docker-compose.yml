@@ -3,7 +3,7 @@ version: '3'
 services:
 
   postgres:
-    image: postgres:13
+    image: postgres:latest
     container_name: hermes_postgres
     env_file:
       - .env

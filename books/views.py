@@ -1,6 +1,7 @@
 from rest_framework import viewsets
 from books.models import Books, Photos, Boxes
 from books.serializers import BooksSerializer, PhotosSerializer, BoxesSerializer
+from django.shortcuts import render, reverse
 
 
 class BooksViewSet(viewsets.ModelViewSet):
@@ -17,3 +18,15 @@ class BoxesViewSet(viewsets.ModelViewSet):
     queryset = Boxes.objects.all()
     serializer_class = BoxesSerializer
 
+def home_view(request):
+    template_name = 'home.html'
+
+    pages = {
+        'Admin': "/admin",
+        'API': "/api"
+    }
+    
+    context = {
+        'pages': pages
+    }
+    return render(request, template_name, context)
