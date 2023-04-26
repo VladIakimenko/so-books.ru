@@ -6,7 +6,7 @@ test:
   stage: test
   tags:
     - test_development
-  image: python:3.9
+  image: python:3.10
   services:
     - postgres:latest
   variables:
