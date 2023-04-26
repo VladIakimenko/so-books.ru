@@ -1,18 +1,37 @@
-build-job:
-  stage: .pre
+stages:
+  - test
+  - deploy
+  
+test:
+  stage: test
+  tags:
+    - test_development
+  image: python:3.9
+  services:
+    - postgres:latest
+  variables:
+    POSTGRES_DB: test_db
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: test_pass
+    HOST: localhost
+    PORT: 5432
+    DEBUG: True
   script:
-    - echo "GOOD"
-    - echo "'$SSH_KEY'"
-pro:
+    - apt-get update && apt-get install -y pipenv
+    - pipenv install
+    - pipenv shell
+    - python manage.py test
+  only:
+    - merge_requests
+    
+deploy:
+  tags:
+    - deploy_development
   stage: deploy
+  only:
+    refs:
+      - development
   script:
-    - cd /home/groofi/project
-    - git status
-    - git pull hermes master
-    - source venv/bin/activate
-    - python manage.py makemigrations
-    - python manage.py migrate
-    - pip install -r requirements.txt
-    - sudo systemctl restart hermes
-    - sudo systemctl restart nginx
-
+    - echo "$ENV_FILE" > .env
+    - docker-compose up -d
+    

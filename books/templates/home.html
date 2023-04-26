@@ -1,18 +1,66 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Добро пожаловать!</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'rest_framework/css/typography.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'rest_framework/css/default.css' %}">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0; /* Add this to remove the default margin */
+        }
+        #container {
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #d4d4d4;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #header {
+            background-color: #2c2c2c;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            height: 70px;
+            line-height: 70px;
+            padding: 0 20px;
+            box-sizing: border-box;
+            position: relative;
+            margin-left: -20px;
+            margin-right: -20px;
+            margin-top: 0;
+        }
+        #header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: #d30202;
+        }
+        a {
+            color: #0e3d77;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Добро пожаловать!</h1>
-    <p>Выберите раздел:</p>
-    {% for title, url in pages.items %}
-        <a href="{{ url }}">{{ title }}</a>
-        <br>
-    {% endfor %}
-	<script type="text/javascript" src="{% static 'js/scripts.js' %}"></script>
+    <div id="container">
+        <div id="header">Добро пожаловать!</div>
+        <p>Выберите раздел:</p>
+        {% for title, url in pages.items %}
+            <a href="{{ url }}">{{ title }}</a>
+            <br>
+        {% endfor %}
+        <script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
+    </div>
 </body>
 </html>
