@@ -33,9 +33,11 @@ deploy:
       - development
   image: docker:latest
   services:
-    - docker:dind
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock    
+    - name: docker:dind
+      alias: docker
+      command: ["--insecure-registry=registry.gitlab.com"]
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock    
   variables:
     DOCKER_DRIVER: overlay2
   before_script:
@@ -43,6 +45,4 @@ deploy:
   script:
     - echo "$ENV_FILE" > .env
     - docker-compose up -d
-
-
 
