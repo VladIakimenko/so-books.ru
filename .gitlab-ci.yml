@@ -31,11 +31,10 @@ deploy:
   only:
     refs:
       - development
-  image: docker:latest
-  services:
-    - name: docker:dind
-      alias: docker
   script:
     - echo "$ENV_FILE" > .env
+    - cat .env
+    - pwd
+    - ls -la
     - docker-compose up -d
 
