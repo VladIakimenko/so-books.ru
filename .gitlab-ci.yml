@@ -32,7 +32,8 @@ deploy:
     refs:
       - development
   script:
-    - echo "$ENV_FILE" > .env
+    - echo $ENV_FILE
+    - echo $ENV_FILE > .env
     - cat .env
     - pwd
     - ls -la
