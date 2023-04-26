@@ -10,12 +10,12 @@ test:
   services:
     - postgres:latest
   variables:
-    POSTGRES_DB: test_db
-    POSTGRES_USER: postgres
-    POSTGRES_PASSWORD: test_pass
-    HOST: localhost
-    PORT: 5432
-    DEBUG: True
+    POSTGRES_DB: 'test_db'
+    POSTGRES_USER: 'postgres'
+    POSTGRES_PASSWORD: 'test_pass'
+    HOST: 'localhost'
+    PORT: '5432'
+    DEBUG: 'True'
   script:
     - apt-get update && apt-get install -y pipenv
     - pipenv install
