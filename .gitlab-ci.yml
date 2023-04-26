@@ -17,9 +17,7 @@ test:
     PORT: '5432'
     DEBUG: 'True'
   script:
-    - apt-get update && apt-get install -y pipenv
-    - pipenv install
-    - pipenv shell
+    - pipenv install --system
     - python manage.py test
   only:
     - merge_requests
