@@ -10,6 +10,7 @@ test:
   services:
     - postgres:latest
   variables:
+    SECRET_KEY: $SECRET_KEY
     POSTGRES_DB: 'test_db'
     POSTGRES_USER: 'postgres'
     POSTGRES_PASSWORD: 'test_pass'
