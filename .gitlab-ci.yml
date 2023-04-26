@@ -35,11 +35,6 @@ deploy:
   services:
     - name: docker:dind
       alias: docker
-      command: ["--insecure-registry=registry.gitlab.com"]
-  variables:
-    DOCKER_DRIVER: overlay2
-  before_script:
-    - apk add --no-cache docker-compose
   script:
     - echo "$ENV_FILE" > .env
     - docker-compose up -d
