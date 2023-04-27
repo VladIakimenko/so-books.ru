@@ -32,10 +32,6 @@ deploy:
     refs:
       - development
   script:
-    - echo $ENV_FILE
     - printf '%s\n' "$ENV_FILE" > .env
-    - cat .env
-    - pwd
-    - ls -la
     - docker-compose up -d
 

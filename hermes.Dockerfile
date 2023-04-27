@@ -25,4 +25,4 @@ CMD if [ "$DEBUG" = "False" ]; then \
         pipenv run python manage.py runserver 0.0.0.0:8000 && \
         rm /app/fixtures/data.json; \
     fi
-    
+
