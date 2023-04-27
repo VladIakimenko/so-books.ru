@@ -33,7 +33,7 @@ deploy:
       - development
   script:
     - echo $ENV_FILE
-    - echo $ENV_FILE > .env
+    - printf '%s\n' "$ENV_FILE" > .env
     - cat .env
     - pwd
     - ls -la
