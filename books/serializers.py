@@ -6,11 +6,11 @@ from books.models import Books, Photos, Boxes
 class BooksSerializer(serializers.HyperlinkedModelSerializer):
     box_name = serializers.SerializerMethodField()
     id = serializers.IntegerField(source='pk', read_only=True)
-    box = serializers.PrimaryKeyRelatedField(queryset=Boxes.objects.all(), write_only=True, required=False)
+    box = serializers.PrimaryKeyRelatedField(queryset=Boxes.objects.all(), write_only=True)
     
     class Meta:
         model = Books
-        fields = ["id", "author", "name", "box_name", "made_in", "year", "box"]
+        fields = ["id", "author", "name", "made_in", "year", "box", "box_name"]
         
     def get_box_name(self, obj):
         return obj.box.name if obj.box else None

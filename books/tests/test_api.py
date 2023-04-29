@@ -33,6 +33,7 @@ class EndpointsTestCase(APITestCase):
             'box': box
         }
         book = Books.objects.create(**self.book_data)
+        self.book_data['box'] = box.pk
         
         test_photo = SimpleUploadedFile(name='test_image.jpg', content=open(self.test_photo_path, 'rb').read(), content_type='image/jpeg')
         self.photo_data = {
@@ -64,7 +65,7 @@ class EndpointsTestCase(APITestCase):
         
     def test_photo(self):
         count = Photos.objects.count()
-        response = self.client.post(self.photos_url, self.photo_data)       
+        response = self.client.post(self.photos_url, self.photo_data)
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         
         response = self.client.get(self.photos_url)
