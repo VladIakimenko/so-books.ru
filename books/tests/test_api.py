@@ -10,6 +10,7 @@ from django.core.files.storage import default_storage
 
 from books.models import Boxes, Books, Photos
 
+
 class EndpointsTestCase(APITestCase):
     boxes_url = reverse('boxes-list')
     books_url = reverse('books-list')
@@ -18,7 +19,6 @@ class EndpointsTestCase(APITestCase):
     media_path = os.path.join(settings.MEDIA_ROOT, 'tests_media')
     os.makedirs(media_path, exist_ok=True)
     settings.MEDIA_ROOT = media_path
-    
 
     def setUp(self):
         self.box_data = {'name': 'Test Box'}
@@ -34,13 +34,16 @@ class EndpointsTestCase(APITestCase):
         book = Books.objects.create(**self.book_data)
         self.book_data['box'] = reverse('boxes-detail', args=[box.id])
         
-        test_photo = SimpleUploadedFile(name='test_image.jpg', content=open(self.test_photo_path, 'rb').read(), content_type='image/jpeg')
+        test_photo = SimpleUploadedFile(
+            name='test_image.jpg',
+            content=open(self.test_photo_path, 'rb').read(),
+            content_type='image/jpeg'
+        )
         self.photo_data = {
             'book': reverse('books-detail', args=[book.id]),
             'photo': test_photo
         }
         
-
     def test_box(self):
         count = Boxes.objects.count()
         response = self.client.post(self.boxes_url, self.box_data)
