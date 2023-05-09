@@ -4,7 +4,6 @@ import shutil
 from rest_framework.test import APITestCase
 from rest_framework import status
 from django.urls import reverse
-from django.apps import apps
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.conf import settings
 from django.core.files.storage import default_storage
@@ -33,7 +32,7 @@ class EndpointsTestCase(APITestCase):
             'box': box
         }
         book = Books.objects.create(**self.book_data)
-        self.book_data['box'] = box.pk
+        self.book_data['box'] = reverse('boxes-detail', args=[box.id])
         
         test_photo = SimpleUploadedFile(name='test_image.jpg', content=open(self.test_photo_path, 'rb').read(), content_type='image/jpeg')
         self.photo_data = {
