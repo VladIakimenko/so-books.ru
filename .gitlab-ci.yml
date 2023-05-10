@@ -24,13 +24,24 @@ test:
   only:
     - merge_requests
     
-deploy:
+deploy_development:
   tags:
     - deploy_development
   stage: deploy
   only:
     refs:
       - development
+  script:
+    - printf '%s\n' "$ENV_FILE" > .env
+    - docker-compose up -d
+    
+deploy_production:
+  tags:
+    - deploy_production
+  stage: deploy
+  only:
+    refs:
+      - master
   script:
     - printf '%s\n' "$ENV_FILE" > .env
     - docker-compose up -d
