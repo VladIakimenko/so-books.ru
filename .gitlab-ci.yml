@@ -33,5 +33,5 @@ deploy:
       - development
   script:
     - printf '%s\n' "$ENV_FILE" > .env
-    - docker-compose up -d
+    - docker-compose up -d --force-recreate
 
