@@ -33,7 +33,7 @@ deploy_development:
       - development
   script:
     - printf '%s\n' "$ENV_FILE" > .env
-    - docker-compose up -d
+    - docker-compose up --force-recreate --build -d
     
 deploy_production:
   tags:
@@ -44,5 +44,5 @@ deploy_production:
       - master
   script:
     - printf '%s\n' "$ENV_FILE" > .env
-    - docker-compose up -d
+    - docker-compose up --force-recreate --build -d
 
