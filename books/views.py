@@ -2,6 +2,7 @@ from rest_framework import viewsets
 from books.models import Books, Photos, Boxes
 from books.serializers import BooksSerializer, BooksListSerializer, PhotosSerializer, BoxesSerializer
 from django.shortcuts import render, reverse
+from django.apps import apps
 
 
 class BooksViewSet(viewsets.ModelViewSet):
@@ -27,7 +28,7 @@ def home_view(request):
 
     pages = {
         'Admin': reverse('admin:index'),
-        'API': reverse('books-list'),
+        'API': reverse('api-root'),
     }
     
     context = {

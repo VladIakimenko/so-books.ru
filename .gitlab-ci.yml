@@ -24,7 +24,7 @@ test:
   only:
     - merge_requests
     
-deploy:
+deploy_development:
   tags:
     - deploy_development
   stage: deploy
@@ -32,6 +32,19 @@ deploy:
     refs:
       - development
   script:
+    - docker-compose down
     - printf '%s\n' "$ENV_FILE" > .env
-    - docker-compose up -d --force-recreate
+    - docker-compose up --force-recreate --build --no-deps -d
+    
+deploy_production:
+  tags:
+    - deploy_production
+  stage: deploy
+  only:
+    refs:
+      - master
+  script:
+    - docker-compose down
+    - printf '%s\n' "$ENV_FILE" > .env
+    - docker-compose up --force-recreate --build --no-deps -d
 

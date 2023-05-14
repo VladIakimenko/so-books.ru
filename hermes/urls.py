@@ -4,7 +4,6 @@ from rest_framework import routers
 from books.views import BooksViewSet, PhotosViewSet, BoxesViewSet
 from books.views import home_view
 
-
 router = routers.DefaultRouter()
 router.register('books', BooksViewSet, basename="books")
 router.register('photos', PhotosViewSet, basename="photos")

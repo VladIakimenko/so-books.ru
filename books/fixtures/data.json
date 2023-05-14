@@ -1,1697 +1,1991 @@
 [
-    {
-        "model": "books.boxes",
-        "pk": 1,
-        "fields": {
-            "name": "История 7 2",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 2,
-        "fields": {
-            "name": "История 7",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 3,
-        "fields": {
-            "name": "Фантастика 2",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 4,
-        "fields": {
-            "name": "Эзотерика 8",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 5,
-        "fields": {
-            "name": "Война Политика 3",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 6,
-        "fields": {
-            "name": "1",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.boxes",
-        "pk": 7,
-        "fields": {
-            "name": "Остальное",
-            "description": ""
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 2,
-        "fields": {
-            "author": "В. Козлов.",
-            "name": "Гопники.",
-            "made_in": "Арт",
-            "year": 2000,
-            "box": 6
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 3,
-        "fields": {
-            "author": "A. Голдсуорди",
-            "name": "Во имя Рима.",
-            "made_in": "Аст",
-            "year": 2006,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 4,
-        "fields": {
-            "author": "Н. А. Кун.",
-            "name": "Легенды и мифы Древней Греции.",
-            "made_in": "Реноме.",
-            "year": 1999,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 6,
-        "fields": {
-            "author": "Д. М. Петрушевский.",
-            "name": "Очерки из истории Средневекового общества и государства.",
-            "made_in": "Г. А.",
-            "year": 2003,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 7,
-        "fields": {
-            "author": "С. Сора.",
-            "name": "Тайные общества, которые правят миром.",
-            "made_in": "Аст",
-            "year": 2008,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 8,
-        "fields": {
-            "author": "К. Валишевский",
-            "name": "Дочь Петра Великого",
-            "made_in": "Ваап-информ",
-            "year": 1989,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 9,
-        "fields": {
-            "author": "Н. М. Карамзин.",
-            "name": "История государства российского 1-3",
-            "made_in": "Тула",
-            "year": 1990,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 10,
-        "fields": {
-            "author": "Д. Уэзерфорд",
-            "name": "Чингисхан и рождение современного мира",
-            "made_in": "Аст",
-            "year": 2008,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 11,
-        "fields": {
-            "author": "С. Любого.",
-            "name": "Последние Романовы.",
-            "made_in": "Аст",
-            "year": 2007,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 12,
-        "fields": {
-            "author": "Д. Клуг.",
-            "name": "История гарема в культурах народов мира.",
-            "made_in": "Русич",
-            "year": 2004,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 13,
-        "fields": {
-            "author": "С. С. Ольденбург.",
-            "name": "Царствование императора Николая 2",
-            "made_in": "Петрополь",
-            "year": 1991,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 14,
-        "fields": {
-            "author": "С. А. Мерцалов.",
-            "name": "История России. Хронограф. Часть2.",
-            "made_in": "Астрель",
-            "year": 2000,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 15,
-        "fields": {
-            "author": "И. Флавий.",
-            "name": "Иудейские древности. Том 2.",
-            "made_in": "Феникс",
-            "year": 2003,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 16,
-        "fields": {
-            "author": "В. Князева.",
-            "name": "Иллюстрированная история России.",
-            "made_in": "Ленинградская галерея.",
-            "year": 1993,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 17,
-        "fields": {
-            "author": "А. З. Манфред",
-            "name": "История Франции. Том 1.",
-            "made_in": "Наука",
-            "year": 1972,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 18,
-        "fields": {
-            "author": "Л. Мюссе.",
-            "name": "Варварское нашествие на Европу:германский натиск",
-            "made_in": "Евразия",
-            "year": 2007,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 19,
-        "fields": {
-            "author": "А. А. Бычков.",
-            "name": "Мифы древних славян.",
-            "made_in": "Вече",
-            "year": 2001,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 20,
-        "fields": {
-            "author": "Г. Эрлих.",
-            "name": "Иван Грозный-многоликий тиран?",
-            "made_in": "Москва. Яуза. Эксмо",
-            "year": 2006,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 21,
-        "fields": {
-            "author": "А. В. Шишов.",
-            "name": "Тайна эпохи Екатерины 2.",
-            "made_in": "Вече.",
-            "year": 2006,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 22,
-        "fields": {
-            "author": "С. Холланд.",
-            "name": "Смерть Атилы. Зима королей.",
-            "made_in": "Терра.",
-            "year": 1997,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 23,
-        "fields": {
-            "author": "Джин Н. Ландрам.",
-            "name": "Четырнадцать гениев, кот. ломали правила.",
-            "made_in": "Феникс.",
-            "year": 1997,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 24,
-        "fields": {
-            "author": "Б. И. Кузнецов.",
-            "name": "Древний Иран и Тибет. История религии Бон.",
-            "made_in": "Евразия",
-            "year": 1998,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 25,
-        "fields": {
-            "author": "А. Бушков.",
-            "name": "Екатерина 2.Алмазная золушка.",
-            "made_in": "Нева.",
-            "year": 2006,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 26,
-        "fields": {
-            "author": "В. Карпенко.",
-            "name": "Александр Македонский",
-            "made_in": "Арзамас",
-            "year": 1996,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 27,
-        "fields": {
-            "author": "Э. Паркер.",
-            "name": "Татары.",
-            "made_in": "Центрполиграф",
-            "year": 2008,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 28,
-        "fields": {
-            "author": "М. Голденков",
-            "name": "Щит Рюрика",
-            "made_in": "Яуза. Эксмо.",
-            "year": 2006,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 29,
-        "fields": {
-            "author": "В. В. Мавродин.",
-            "name": "Происхождение русского народа.",
-            "made_in": "Лен. Университет",
-            "year": 1978,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 30,
-        "fields": {
-            "author": "Н. Н. Непомнящий.",
-            "name": "Величайшие загадки истории",
-            "made_in": "Вече.",
-            "year": 2006,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 31,
-        "fields": {
-            "author": "Д. Лоудз",
-            "name": "Генрих 8.",
-            "made_in": "Феникс",
-            "year": 1997,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 32,
-        "fields": {
-            "author": "Ж. П. Баллон.",
-            "name": "Генрих 4.",
-            "made_in": "Феникс",
-            "year": 1999,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 33,
-        "fields": {
-            "author": "В. Кандыба.",
-            "name": "История русской империи.",
-            "made_in": "Экономика.",
-            "year": 1997,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 34,
-        "fields": {
-            "author": "Д. Иловайский.",
-            "name": "Становление Руси",
-            "made_in": "Астрель",
-            "year": 2003,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 35,
-        "fields": {
-            "author": "С. Арутюнов.",
-            "name": "Гении и злодеи России 18 века.",
-            "made_in": "Вече.",
-            "year": 2013,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 36,
-        "fields": {
-            "author": "А. Т. Фоменко.",
-            "name": "Античность-это Средневековье.",
-            "made_in": "Нева",
-            "year": 2005,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 37,
-        "fields": {
-            "author": "Б. Тарасов.",
-            "name": "Николай 1.",
-            "made_in": "Олма",
-            "year": 2007,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 38,
-        "fields": {
-            "author": "А. Соколов.",
-            "name": "Тайна Царскосельского дворца.",
-            "made_in": "Печатный двор.",
-            "year": 1993,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 39,
-        "fields": {
-            "author": "Л. Антропов",
-            "name": "Герцогиня и конюх.",
-            "made_in": "Печатный двор.",
-            "year": 1993,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 40,
-        "fields": {
-            "author": "Т. Мундт.",
-            "name": "Неразгаданный монарх.",
-            "made_in": "Печатный двор.",
-            "year": 1993,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 41,
-        "fields": {
-            "author": "Е. Салинас.",
-            "name": "Аракчеевский подкидыш.",
-            "made_in": "Печатный двор.",
-            "year": 1993,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 42,
-        "fields": {
-            "author": "Кн. Ф. Юсупов.",
-            "name": "Конец Распутина.",
-            "made_in": "Отечество.",
-            "year": 1990,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 43,
-        "fields": {
-            "author": "С. Смирнов.",
-            "name": "Царь горы, или тайна Кира Великого.",
-            "made_in": "Аст",
-            "year": 2002,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 44,
-        "fields": {
-            "author": "Е. Чудинова.",
-            "name": "История Англии для детей.",
-            "made_in": "Центр творческого развития.",
-            "year": 1996,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 45,
-        "fields": {
-            "author": "Л. Хьюз.",
-            "name": "Пётр Великий.",
-            "made_in": "Омега",
-            "year": 2008,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 46,
-        "fields": {
-            "author": "М. В. Адам Чик.",
-            "name": "Легенды мифы Древнего мира.",
-            "made_in": "Харвест",
-            "year": 2005,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 47,
-        "fields": {
-            "author": "Н. В. Тишунина",
-            "name": "Король Артур и рыцари круглого стола.",
-            "made_in": "Лениздат",
-            "year": 1994,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 48,
-        "fields": {
-            "author": "Ю. Фёдоров.",
-            "name": "Борис Годунов.",
-            "made_in": "Русское слово",
-            "year": 1994,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 49,
-        "fields": {
-            "author": "В. И. Гурко.",
-            "name": "Царь и царица",
-            "made_in": "Вече",
-            "year": 2008,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 50,
-        "fields": {
-            "author": "А. Абрашкин.",
-            "name": "Арийские корни Руси",
-            "made_in": "Эксмо",
-            "year": 2009,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 51,
-        "fields": {
-            "author": "Э. Радзинский.",
-            "name": "Наполеон. Жизнь после смерти.",
-            "made_in": "Вагриус",
-            "year": 2003,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 52,
-        "fields": {
-            "author": "Н. Н. Непомнящий.",
-            "name": "100 великих загадок истории.",
-            "made_in": "Вече",
-            "year": 2007,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 53,
-        "fields": {
-            "author": "Е. Пернов.",
-            "name": "Путешествие в Атлантиду.",
-            "made_in": "Амфора",
-            "year": 2014,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 54,
-        "fields": {
-            "author": "Е. И. Лещина.",
-            "name": "Павел 1.",
-            "made_in": "Амфора",
-            "year": 2016,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 55,
-        "fields": {
-            "author": "Г. В. Носовский. А. Т. Фоменко",
-            "name": "Русь и Рим. 3 , 4 тома.",
-            "made_in": "Аст",
-            "year": 2001,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 56,
-        "fields": {
-            "author": "И. Можейко.",
-            "name": "Пираты, корсары, рейдеры.",
-            "made_in": "Вече",
-            "year": 2006,
-            "box": 2
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 57,
-        "fields": {
-            "author": "Сборник",
-            "name": "Тайна власти.",
-            "made_in": "Фортуна-пресс",
-            "year": 1997,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 58,
-        "fields": {
-            "author": "Г. Прашкевич.",
-            "name": "Крестовые походы.",
-            "made_in": "Внче",
-            "year": 1998,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 59,
-        "fields": {
-            "author": "А. А. Тахо-Годи.",
-            "name": "Греческая мифология.",
-            "made_in": "Искусство",
-            "year": 1989,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 60,
-        "fields": {
-            "author": "Е. Анисимов.",
-            "name": "Женщины на российском престоле.",
-            "made_in": "Норинт",
-            "year": 1997,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 61,
-        "fields": {
-            "author": "А. Буровский",
-            "name": "Правда о золотом веке Екатерины.",
-            "made_in": "Яуза. Эксмо.",
-            "year": 2010,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 62,
-        "fields": {
-            "author": "И. Коваленко",
-            "name": "Печенежские войны",
-            "made_in": "Вече",
-            "year": 1998,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 63,
-        "fields": {
-            "author": "Н. Я. Бичурин.",
-            "name": "История монголов",
-            "made_in": "Аст",
-            "year": 2005,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 64,
-        "fields": {
-            "author": "С. Понятовский.",
-            "name": "Тайны истории. Мемуары.",
-            "made_in": "Терра",
-            "year": 1995,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 65,
-        "fields": {
-            "author": "В. Д. Балакин.",
-            "name": "Раннее новое время",
-            "made_in": "Астрель",
-            "year": 2006,
-            "box": 1
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 66,
-        "fields": {
-            "author": "П. Пиобб.",
-            "name": "Ваша судьба. Магия.",
-            "made_in": "Фолио",
-            "year": 1997,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 67,
-        "fields": {
-            "author": "Ю. М. Иванов.",
-            "name": "Как стать экстрасенсом.",
-            "made_in": "Лингва",
-            "year": 1990,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 68,
-        "fields": {
-            "author": "Ю. М. Иванов.",
-            "name": "Йога и психотренинг.",
-            "made_in": "Лесинвест.",
-            "year": 1991,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 69,
-        "fields": {
-            "author": "Алиса А. Бейли.",
-            "name": "Эзотерическая психология",
-            "made_in": "Двойная звезда.",
-            "year": 1994,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 70,
-        "fields": {
-            "author": "М. Лайтман.",
-            "name": "Кабала часть1-3",
-            "made_in": "Интербук",
-            "year": 1993,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 71,
-        "fields": {
-            "author": "В. А. Антонов.",
-            "name": "Магия глазами экстрасенса.",
-            "made_in": "Рипол-классик.",
-            "year": 1999,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 72,
-        "fields": {
-            "author": "Н. Степанова.",
-            "name": "Магия 1,2.",
-            "made_in": "Рипол-классик",
-            "year": 1999,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 73,
-        "fields": {
-            "author": "Е. П. Блаватская.",
-            "name": "Тайная доктрина. 1,2",
-            "made_in": "Ленинград",
-            "year": 1991,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 74,
-        "fields": {
-            "author": "Ю. В. Мизун.",
-            "name": "Тайны богов и религий.",
-            "made_in": "Вече",
-            "year": 1999,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 75,
-        "fields": {
-            "author": "Ю. М. Иванов.",
-            "name": "Человек и его душа",
-            "made_in": "Ариадна",
-            "year": 1991,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 76,
-        "fields": {
-            "author": "Э. Кассе",
-            "name": "Когда прошлое становится будущим.",
-            "made_in": "Вектор.",
-            "year": 2009,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 77,
-        "fields": {
-            "author": "А. Клюев.",
-            "name": "Хождение в вечность",
-            "made_in": "Пелигримм-пресс",
-            "year": 2003,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 78,
-        "fields": {
-            "author": "М. А. Орлов.",
-            "name": "Искушение нечистой силой.",
-            "made_in": "Рипол.",
-            "year": 1996,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 79,
-        "fields": {
-            "author": "А. Александров.",
-            "name": "Тайный смысл даты рождения. Нумерология и будущее.",
-            "made_in": "Рипол.",
-            "year": 2006,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 80,
-        "fields": {
-            "author": "К. Теппервайн.",
-            "name": "Школа гипноза.",
-            "made_in": "Мой мир.",
-            "year": 2006,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 81,
-        "fields": {
-            "author": "Алиса. А. Бейли.",
-            "name": "Трактат о семи лучах.",
-            "made_in": "Киев",
-            "year": 1993,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 82,
-        "fields": {
-            "author": "А. Ч. Бхактиведанта Свами Прабхупада.",
-            "name": "Наука самоосознания",
-            "made_in": "Кришна",
-            "year": 2005,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 83,
-        "fields": {
-            "author": "Г. Х. Миллер.",
-            "name": "Толкование десяти тысяч снов.",
-            "made_in": "Странник",
-            "year": 1992,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 84,
-        "fields": {
-            "author": "В. Кандыба.",
-            "name": "Загадочные сверхвозможности человека",
-            "made_in": "Лань",
-            "year": 2000,
-            "box": 4
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 85,
-        "fields": {
-            "author": "Г. Табачник.",
-            "name": "Последние хозяева Кремля.",
-            "made_in": "Орфей",
-            "year": 1994,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 86,
-        "fields": {
-            "author": "Ч. Мессенджер.",
-            "name": "Гладиатор Гитлера.",
-            "made_in": "Эксмо.",
-            "year": 2004,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 87,
-        "fields": {
-            "author": "А. Сульянов.",
-            "name": "Арестовать в Кремле. Берия.",
-            "made_in": "Минск.",
-            "year": 1991,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 88,
-        "fields": {
-            "author": "А. Север.",
-            "name": "Тайна сталинских репрессий. 37год.",
-            "made_in": "Алгоритм",
-            "year": 2007,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 91,
-        "fields": {
-            "author": "Б. В. Соколов",
-            "name": "Молотов",
-            "made_in": "Аст-пресс",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 92,
-        "fields": {
-            "author": "Э. Радзинский.",
-            "name": "Сталин",
-            "made_in": "Вагриус",
-            "year": 1997,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 93,
-        "fields": {
-            "author": "А. Б. Оришев",
-            "name": "В августе 1941",
-            "made_in": "Вече",
-            "year": 2011,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 94,
-        "fields": {
-            "author": "И. К. Фест.",
-            "name": "Гитлер. 3тома.",
-            "made_in": "Алетейа",
-            "year": 1993,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 95,
-        "fields": {
-            "author": "М. Г. Дроздовский",
-            "name": "Белое дело. Книга 7",
-            "made_in": "Голос",
-            "year": 1996,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 96,
-        "fields": {
-            "author": "А. И. Деникин.",
-            "name": "Белое дело. Генерал Корнилов. Книга 1.",
-            "made_in": "Голос",
-            "year": 1993,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 97,
-        "fields": {
-            "author": "В. Б. Сапунов.",
-            "name": "Враги России. Кто они?",
-            "made_in": "Астрель-спб",
-            "year": 2011,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 98,
-        "fields": {
-            "author": "И. Шамир.",
-            "name": "Каббала власти.",
-            "made_in": "Алгоритм",
-            "year": 2008,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 99,
-        "fields": {
-            "author": "А. Первушин.",
-            "name": "Оккультный Гитлер.",
-            "made_in": "Вектор",
-            "year": 2008,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 100,
-        "fields": {
-            "author": "С. Стивен.",
-            "name": "Операция \"Раскол\"",
-            "made_in": "Эксмо",
-            "year": 2003,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 101,
-        "fields": {
-            "author": "И. Фроянов.",
-            "name": "Россия погруженная в бездну.",
-            "made_in": "Алгоритм",
-            "year": 2010,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 102,
-        "fields": {
-            "author": "М. Бешлосс",
-            "name": "Измена в Кремле. Тайные соглашения Горбачёва.",
-            "made_in": "Алгоритм",
-            "year": 20010,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 103,
-        "fields": {
-            "author": "Ф. Бурлацкий",
-            "name": "Вожди и советники",
-            "made_in": "Политическая литература.",
-            "year": 1991,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 104,
-        "fields": {
-            "author": "В. В. Соколов.",
-            "name": "Тайны ВМВ. Разведка.",
-            "made_in": "Аст-пресс",
-            "year": 2003,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 105,
-        "fields": {
-            "author": "С. Рыбас.",
-            "name": "Генерал Кутепов",
-            "made_in": "Олма-пресс",
-            "year": 2000,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 106,
-        "fields": {
-            "author": "П. Карелл",
-            "name": "Дорога в никуда:вермахт и восточный фронт. Мир в войне.",
-            "made_in": "Русич.",
-            "year": 2003,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 107,
-        "fields": {
-            "author": "А. Бушков",
-            "name": "Хроника мутного времени.",
-            "made_in": "Олма-пресс",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 108,
-        "fields": {
-            "author": "С. М. Штеменко",
-            "name": "Генеральный штаб в годы войны. От Сталинграда до Берлина.",
-            "made_in": "Транзиткнига",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 109,
-        "fields": {
-            "author": "А. Б. Широкорад.",
-            "name": "Наша великая мифология. Четыре гражданских войны.",
-            "made_in": "Аст",
-            "year": 2008,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 110,
-        "fields": {
-            "author": "С. М. Штеменко",
-            "name": "Генеральный штаб. Освобождение Европы.",
-            "made_in": "Транзиткнига",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 111,
-        "fields": {
-            "author": "А. Константинов.",
-            "name": "Коррумпированная Россия.",
-            "made_in": "Олма-пресс",
-            "year": 2006,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 112,
-        "fields": {
-            "author": "А. В. Исаев",
-            "name": "От Дубно до Ростова.",
-            "made_in": "Транзиткнига",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 113,
-        "fields": {
-            "author": "А. Широкорад",
-            "name": "Битва за Чёрное море.",
-            "made_in": "Транзиткнига",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 114,
-        "fields": {
-            "author": "О. Бенюх",
-            "name": "Владыки",
-            "made_in": "Вся Москва",
-            "year": 1990,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 115,
-        "fields": {
-            "author": "О. Хлобыстова.",
-            "name": "Госбезопасность от Александра 1 до Путина",
-            "made_in": "Эксмо.",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 116,
-        "fields": {
-            "author": "Ю. Новикова",
-            "name": "Эсминцы и эскортные корабли.",
-            "made_in": "Аст",
-            "year": 2001,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 117,
-        "fields": {
-            "author": "Д. Стефан.",
-            "name": "Русские фашисты.",
-            "made_in": "Слово",
-            "year": 1992,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 118,
-        "fields": {
-            "author": "Р. Гуль.",
-            "name": "Белое движение.",
-            "made_in": "Московский рабочий.",
-            "year": 1990,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 119,
-        "fields": {
-            "author": "Е. Р. Ольховский",
-            "name": "Тайны и авантюры в Российской истории.",
-            "made_in": "Олма-пресс",
-            "year": 2003,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 120,
-        "fields": {
-            "author": "А. Помогайбо",
-            "name": "Псевдоисторик Суворов.",
-            "made_in": "Вече",
-            "year": 2002,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 121,
-        "fields": {
-            "author": "В. Быков.",
-            "name": "Его батальон",
-            "made_in": "Терра",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 122,
-        "fields": {
-            "author": "А. Бушков",
-            "name": "Россия которой не было 3.",
-            "made_in": "Олма-пресс",
-            "year": 2004,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 123,
-        "fields": {
-            "author": "А. Бутовский.",
-            "name": "Наполеон-спаситель России",
-            "made_in": "Яуза",
-            "year": 2009,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 124,
-        "fields": {
-            "author": "Б. В. Соколов.",
-            "name": "Тайны вмв. Военные тайны 20века.",
-            "made_in": "Вече",
-            "year": 2000,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 125,
-        "fields": {
-            "author": "В. Н. Шунков",
-            "name": "Танки",
-            "made_in": "Попурри",
-            "year": 2000,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 126,
-        "fields": {
-            "author": "Ф. Форсайт",
-            "name": "Кулак Аллаха",
-            "made_in": "Эксмо",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 127,
-        "fields": {
-            "author": "Г. Брянцев.",
-            "name": "Тайные тропы. Воен. Прикл.",
-            "made_in": "Вече",
-            "year": 2006,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 128,
-        "fields": {
-            "author": "П. Петров.",
-            "name": "Балтийский флот.",
-            "made_in": "Яуза",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 129,
-        "fields": {
-            "author": "А. А. Строков",
-            "name": "Вооружённые силы и военное искусство в первой мировой войне.",
-            "made_in": "Воениздат",
-            "year": 1974,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 130,
-        "fields": {
-            "author": "В. Кравицкий",
-            "name": "Я был агентом Сталина",
-            "made_in": "Терра",
-            "year": 1998,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 131,
-        "fields": {
-            "author": "Ю. Мухин",
-            "name": "Как уродуют историю твоей родины?",
-            "made_in": "Эксмо",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 132,
-        "fields": {
-            "author": "Д. Еникеева",
-            "name": "Российская политическая элита",
-            "made_in": "Транзиткнига",
-            "year": 2004,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 133,
-        "fields": {
-            "author": "Ю. Н. Богданов",
-            "name": "Строго секретно. 30лет в огпу-нквд-мвд.",
-            "made_in": "Вече",
-            "year": 2002,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 134,
-        "fields": {
-            "author": "А. Е. Тарас.",
-            "name": "Подготовка разведчика",
-            "made_in": "Харвест",
-            "year": 1998,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 135,
-        "fields": {
-            "author": "М. Калашников",
-            "name": "Битва за небеса",
-            "made_in": "Крымский мост-9Д",
-            "year": 2000,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 136,
-        "fields": {
-            "author": "Ю. Мухин",
-            "name": "Убийцы Сталина",
-            "made_in": "Яуза",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 137,
-        "fields": {
-            "author": "Стариков",
-            "name": "Покушение на Великую Победу",
-            "made_in": "Эксмо",
-            "year": 2005,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 138,
-        "fields": {
-            "author": "Э. Миддельдорф",
-            "name": "Русская кампания",
-            "made_in": "Аст",
-            "year": 2001,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 139,
-        "fields": {
-            "author": "М. Любимов",
-            "name": "Шпионы, которых я люблю и ненавижу.",
-            "made_in": "Олимп",
-            "year": 1997,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 140,
-        "fields": {
-            "author": "А. Самоваров",
-            "name": "Останутся ли в России русские",
-            "made_in": "Яуза-пресс",
-            "year": 2010,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 141,
-        "fields": {
-            "author": "А. Орлов.",
-            "name": "Тайная битва сверхдержав.",
-            "made_in": "Вече",
-            "year": 2000,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 142,
-        "fields": {
-            "author": "Н. Стариков.",
-            "name": "Ликвидация России.",
-            "made_in": "Лидер",
-            "year": 2010,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 143,
-        "fields": {
-            "author": "Н. С. Черышев.",
-            "name": "Из ГУЛАГа в бой",
-            "made_in": "Вече",
-            "year": 2006,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 145,
-        "fields": {
-            "author": "И. Л. Бунич",
-            "name": "Золото партии",
-            "made_in": "Облик",
-            "year": 1999,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 146,
-        "fields": {
-            "author": "М. Калашников",
-            "name": "Вор должен сидеть в тюрьме.",
-            "made_in": "Яуза",
-            "year": 2006,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 147,
-        "fields": {
-            "author": "Ю. Мухин.",
-            "name": "Главная антироссийская подлость",
-            "made_in": "Яуза-пресс",
-            "year": 2010,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 148,
-        "fields": {
-            "author": "Ю. В. Рубцов.",
-            "name": "Штрафники Великой Отечественной.",
-            "made_in": "Вече",
-            "year": 2008,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 149,
-        "fields": {
-            "author": "А. П. Паршев",
-            "name": "Почему Россия не Америка..",
-            "made_in": "Крымский мост-9Д",
-            "year": 1999,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 150,
-        "fields": {
-            "author": "П. Шмидт",
-            "name": "Переводчик Гитлера.",
-            "made_in": "Русич",
-            "year": 2001,
-            "box": 5
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 151,
-        "fields": {
-            "author": "Е Бычкова.Н.Турчанинова.",
-            "name": "Заложники света",
-            "made_in": "Издательство Альфа-книга",
-            "year": 2004,
-            "box": 3
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 152,
-        "fields": {
-            "author": "Кл.Саймак.",
-            "name": "Братство талисмана.",
-            "made_in": "Петроарт",
-            "year": 1992,
-            "box": 3
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 153,
-        "fields": {
-            "author": "А.Спрэгде Камп.Ф.Прэтт",
-            "name": "Железный замок",
-            "made_in": "Азбука классика.мягк.",
-            "year": 2004,
-            "box": 3
-        }
-    },
-    {
-        "model": "books.books",
-        "pk": 154,
-        "fields": {
-            "author": "А.Орлов.",
-            "name": "Бросок Саламандры.",
-            "made_in": "Эксмо",
-            "year": 2004,
-            "box": 3
-        }
-    }
+{
+  "model": "books.boxes",
+  "pk": 1,
+  "fields": {
+    "name": "История 7 2",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 2,
+  "fields": {
+    "name": "История 7",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 3,
+  "fields": {
+    "name": "Фантастика 2",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 4,
+  "fields": {
+    "name": "Эзотерика 8",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 5,
+  "fields": {
+    "name": "Война Политика 3",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 6,
+  "fields": {
+    "name": "1",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 7,
+  "fields": {
+    "name": "Остальное",
+    "description": ""
+  }
+},
+{
+  "model": "books.boxes",
+  "pk": 9,
+  "fields": {
+    "name": "Фантастика 1.",
+    "description": "В конце справа.Длинная."
+  }
+},
+{
+  "model": "books.books",
+  "pk": 2,
+  "fields": {
+    "author": "В. Козлов.",
+    "name": "Гопники.",
+    "made_in": "Арт",
+    "year": 2000,
+    "box": 6
+  }
+},
+{
+  "model": "books.books",
+  "pk": 3,
+  "fields": {
+    "author": "A. Голдсуорди",
+    "name": "Во имя Рима.",
+    "made_in": "Аст",
+    "year": 2006,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 4,
+  "fields": {
+    "author": "Н. А. Кун.",
+    "name": "Легенды и мифы Древней Греции.",
+    "made_in": "Реноме.",
+    "year": 1999,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 6,
+  "fields": {
+    "author": "Д. М. Петрушевский.",
+    "name": "Очерки из истории Средневекового общества и государства.",
+    "made_in": "Г. А.",
+    "year": 2003,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 7,
+  "fields": {
+    "author": "С. Сора.",
+    "name": "Тайные общества, которые правят миром.",
+    "made_in": "Аст",
+    "year": 2008,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 8,
+  "fields": {
+    "author": "К. Валишевский",
+    "name": "Дочь Петра Великого",
+    "made_in": "Ваап-информ",
+    "year": 1989,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 9,
+  "fields": {
+    "author": "Н. М. Карамзин.",
+    "name": "История государства российского 1-3",
+    "made_in": "Тула",
+    "year": 1990,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 10,
+  "fields": {
+    "author": "Д. Уэзерфорд",
+    "name": "Чингисхан и рождение современного мира",
+    "made_in": "Аст",
+    "year": 2008,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 11,
+  "fields": {
+    "author": "С. Любого.",
+    "name": "Последние Романовы.",
+    "made_in": "Аст",
+    "year": 2007,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 12,
+  "fields": {
+    "author": "Д. Клуг.",
+    "name": "История гарема в культурах народов мира.",
+    "made_in": "Русич",
+    "year": 2004,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 13,
+  "fields": {
+    "author": "С. С. Ольденбург.",
+    "name": "Царствование императора Николая 2",
+    "made_in": "Петрополь",
+    "year": 1991,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 14,
+  "fields": {
+    "author": "С. А. Мерцалов.",
+    "name": "История России. Хронограф. Часть2.",
+    "made_in": "Астрель",
+    "year": 2000,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 15,
+  "fields": {
+    "author": "И. Флавий.",
+    "name": "Иудейские древности. Том 2.",
+    "made_in": "Феникс",
+    "year": 2003,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 16,
+  "fields": {
+    "author": "В. Князева.",
+    "name": "Иллюстрированная история России.",
+    "made_in": "Ленинградская галерея.",
+    "year": 1993,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 17,
+  "fields": {
+    "author": "А. З. Манфред",
+    "name": "История Франции. Том 1.",
+    "made_in": "Наука",
+    "year": 1972,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 18,
+  "fields": {
+    "author": "Л. Мюссе.",
+    "name": "Варварское нашествие на Европу:германский натиск",
+    "made_in": "Евразия",
+    "year": 2007,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 19,
+  "fields": {
+    "author": "А. А. Бычков.",
+    "name": "Мифы древних славян.",
+    "made_in": "Вече",
+    "year": 2001,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 20,
+  "fields": {
+    "author": "Г. Эрлих.",
+    "name": "Иван Грозный-многоликий тиран?",
+    "made_in": "Москва. Яуза. Эксмо",
+    "year": 2006,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 21,
+  "fields": {
+    "author": "А. В. Шишов.",
+    "name": "Тайна эпохи Екатерины 2.",
+    "made_in": "Вече.",
+    "year": 2006,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 22,
+  "fields": {
+    "author": "С. Холланд.",
+    "name": "Смерть Атилы. Зима королей.",
+    "made_in": "Терра.",
+    "year": 1997,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 23,
+  "fields": {
+    "author": "Джин Н. Ландрам.",
+    "name": "Четырнадцать гениев, кот. ломали правила.",
+    "made_in": "Феникс.",
+    "year": 1997,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 24,
+  "fields": {
+    "author": "Б. И. Кузнецов.",
+    "name": "Древний Иран и Тибет. История религии Бон.",
+    "made_in": "Евразия",
+    "year": 1998,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 25,
+  "fields": {
+    "author": "А. Бушков.",
+    "name": "Екатерина 2.Алмазная золушка.",
+    "made_in": "Нева.",
+    "year": 2006,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 26,
+  "fields": {
+    "author": "В. Карпенко.",
+    "name": "Александр Македонский",
+    "made_in": "Арзамас",
+    "year": 1996,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 27,
+  "fields": {
+    "author": "Э. Паркер.",
+    "name": "Татары.",
+    "made_in": "Центрполиграф",
+    "year": 2008,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 28,
+  "fields": {
+    "author": "М. Голденков",
+    "name": "Щит Рюрика",
+    "made_in": "Яуза. Эксмо.",
+    "year": 2006,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 29,
+  "fields": {
+    "author": "В. В. Мавродин.",
+    "name": "Происхождение русского народа.",
+    "made_in": "Лен. Университет",
+    "year": 1978,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 30,
+  "fields": {
+    "author": "Н. Н. Непомнящий.",
+    "name": "Величайшие загадки истории",
+    "made_in": "Вече.",
+    "year": 2006,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 31,
+  "fields": {
+    "author": "Д. Лоудз",
+    "name": "Генрих 8.",
+    "made_in": "Феникс",
+    "year": 1997,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 32,
+  "fields": {
+    "author": "Ж. П. Баллон.",
+    "name": "Генрих 4.",
+    "made_in": "Феникс",
+    "year": 1999,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 33,
+  "fields": {
+    "author": "В. Кандыба.",
+    "name": "История русской империи.",
+    "made_in": "Экономика.",
+    "year": 1997,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 34,
+  "fields": {
+    "author": "Д. Иловайский.",
+    "name": "Становление Руси",
+    "made_in": "Астрель",
+    "year": 2003,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 35,
+  "fields": {
+    "author": "С. Арутюнов.",
+    "name": "Гении и злодеи России 18 века.",
+    "made_in": "Вече.",
+    "year": 2013,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 36,
+  "fields": {
+    "author": "А. Т. Фоменко.",
+    "name": "Античность-это Средневековье.",
+    "made_in": "Нева",
+    "year": 2005,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 37,
+  "fields": {
+    "author": "Б. Тарасов.",
+    "name": "Николай 1.",
+    "made_in": "Олма",
+    "year": 2007,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 38,
+  "fields": {
+    "author": "А. Соколов.",
+    "name": "Тайна Царскосельского дворца.",
+    "made_in": "Печатный двор.",
+    "year": 1993,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 39,
+  "fields": {
+    "author": "Л. Антропов",
+    "name": "Герцогиня и конюх.",
+    "made_in": "Печатный двор.",
+    "year": 1993,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 40,
+  "fields": {
+    "author": "Т. Мундт.",
+    "name": "Неразгаданный монарх.",
+    "made_in": "Печатный двор.",
+    "year": 1993,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 41,
+  "fields": {
+    "author": "Е. Салинас.",
+    "name": "Аракчеевский подкидыш.",
+    "made_in": "Печатный двор.",
+    "year": 1993,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 42,
+  "fields": {
+    "author": "Кн. Ф. Юсупов.",
+    "name": "Конец Распутина.",
+    "made_in": "Отечество.",
+    "year": 1990,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 43,
+  "fields": {
+    "author": "С. Смирнов.",
+    "name": "Царь горы, или тайна Кира Великого.",
+    "made_in": "Аст",
+    "year": 2002,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 44,
+  "fields": {
+    "author": "Е. Чудинова.",
+    "name": "История Англии для детей.",
+    "made_in": "Центр творческого развития.",
+    "year": 1996,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 45,
+  "fields": {
+    "author": "Л. Хьюз.",
+    "name": "Пётр Великий.",
+    "made_in": "Омега",
+    "year": 2008,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 46,
+  "fields": {
+    "author": "М. В. Адам Чик.",
+    "name": "Легенды мифы Древнего мира.",
+    "made_in": "Харвест",
+    "year": 2005,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 47,
+  "fields": {
+    "author": "Н. В. Тишунина",
+    "name": "Король Артур и рыцари круглого стола.",
+    "made_in": "Лениздат",
+    "year": 1994,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 48,
+  "fields": {
+    "author": "Ю. Фёдоров.",
+    "name": "Борис Годунов.",
+    "made_in": "Русское слово",
+    "year": 1994,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 49,
+  "fields": {
+    "author": "В. И. Гурко.",
+    "name": "Царь и царица",
+    "made_in": "Вече",
+    "year": 2008,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 50,
+  "fields": {
+    "author": "А. Абрашкин.",
+    "name": "Арийские корни Руси",
+    "made_in": "Эксмо",
+    "year": 2009,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 51,
+  "fields": {
+    "author": "Э. Радзинский.",
+    "name": "Наполеон. Жизнь после смерти.",
+    "made_in": "Вагриус",
+    "year": 2003,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 52,
+  "fields": {
+    "author": "Н. Н. Непомнящий.",
+    "name": "100 великих загадок истории.",
+    "made_in": "Вече",
+    "year": 2007,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 53,
+  "fields": {
+    "author": "Е. Пернов.",
+    "name": "Путешествие в Атлантиду.",
+    "made_in": "Амфора",
+    "year": 2014,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 54,
+  "fields": {
+    "author": "Е. И. Лещина.",
+    "name": "Павел 1.",
+    "made_in": "Амфора",
+    "year": 2016,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 55,
+  "fields": {
+    "author": "Г. В. Носовский. А. Т. Фоменко",
+    "name": "Русь и Рим. 3 , 4 тома.",
+    "made_in": "Аст",
+    "year": 2001,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 56,
+  "fields": {
+    "author": "И. Можейко.",
+    "name": "Пираты, корсары, рейдеры.",
+    "made_in": "Вече",
+    "year": 2006,
+    "box": 2
+  }
+},
+{
+  "model": "books.books",
+  "pk": 57,
+  "fields": {
+    "author": "Сборник",
+    "name": "Тайна власти.",
+    "made_in": "Фортуна-пресс",
+    "year": 1997,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 58,
+  "fields": {
+    "author": "Г. Прашкевич.",
+    "name": "Крестовые походы.",
+    "made_in": "Внче",
+    "year": 1998,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 59,
+  "fields": {
+    "author": "А. А. Тахо-Годи.",
+    "name": "Греческая мифология.",
+    "made_in": "Искусство",
+    "year": 1989,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 60,
+  "fields": {
+    "author": "Е. Анисимов.",
+    "name": "Женщины на российском престоле.",
+    "made_in": "Норинт",
+    "year": 1997,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 61,
+  "fields": {
+    "author": "А. Буровский",
+    "name": "Правда о золотом веке Екатерины.",
+    "made_in": "Яуза. Эксмо.",
+    "year": 2010,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 62,
+  "fields": {
+    "author": "И. Коваленко",
+    "name": "Печенежские войны",
+    "made_in": "Вече",
+    "year": 1998,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 63,
+  "fields": {
+    "author": "Н. Я. Бичурин.",
+    "name": "История монголов",
+    "made_in": "Аст",
+    "year": 2005,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 64,
+  "fields": {
+    "author": "С. Понятовский.",
+    "name": "Тайны истории. Мемуары.",
+    "made_in": "Терра",
+    "year": 1995,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 65,
+  "fields": {
+    "author": "В. Д. Балакин.",
+    "name": "Раннее новое время",
+    "made_in": "Астрель",
+    "year": 2006,
+    "box": 1
+  }
+},
+{
+  "model": "books.books",
+  "pk": 66,
+  "fields": {
+    "author": "П. Пиобб.",
+    "name": "Ваша судьба. Магия.",
+    "made_in": "Фолио",
+    "year": 1997,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 67,
+  "fields": {
+    "author": "Ю. М. Иванов.",
+    "name": "Как стать экстрасенсом.",
+    "made_in": "Лингва",
+    "year": 1990,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 68,
+  "fields": {
+    "author": "Ю. М. Иванов.",
+    "name": "Йога и психотренинг.",
+    "made_in": "Лесинвест.",
+    "year": 1991,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 69,
+  "fields": {
+    "author": "Алиса А. Бейли.",
+    "name": "Эзотерическая психология",
+    "made_in": "Двойная звезда.",
+    "year": 1994,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 70,
+  "fields": {
+    "author": "М. Лайтман.",
+    "name": "Кабала часть1-3",
+    "made_in": "Интербук",
+    "year": 1993,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 71,
+  "fields": {
+    "author": "В. А. Антонов.",
+    "name": "Магия глазами экстрасенса.",
+    "made_in": "Рипол-классик.",
+    "year": 1999,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 72,
+  "fields": {
+    "author": "Н. Степанова.",
+    "name": "Магия 1,2.",
+    "made_in": "Рипол-классик",
+    "year": 1999,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 73,
+  "fields": {
+    "author": "Е. П. Блаватская.",
+    "name": "Тайная доктрина. 1,2",
+    "made_in": "Ленинград",
+    "year": 1991,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 74,
+  "fields": {
+    "author": "Ю. В. Мизун.",
+    "name": "Тайны богов и религий.",
+    "made_in": "Вече",
+    "year": 1999,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 75,
+  "fields": {
+    "author": "Ю. М. Иванов.",
+    "name": "Человек и его душа",
+    "made_in": "Ариадна",
+    "year": 1991,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 76,
+  "fields": {
+    "author": "Э. Кассе",
+    "name": "Когда прошлое становится будущим.",
+    "made_in": "Вектор.",
+    "year": 2009,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 77,
+  "fields": {
+    "author": "А. Клюев.",
+    "name": "Хождение в вечность",
+    "made_in": "Пелигримм-пресс",
+    "year": 2003,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 78,
+  "fields": {
+    "author": "М. А. Орлов.",
+    "name": "Искушение нечистой силой.",
+    "made_in": "Рипол.",
+    "year": 1996,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 79,
+  "fields": {
+    "author": "А. Александров.",
+    "name": "Тайный смысл даты рождения. Нумерология и будущее.",
+    "made_in": "Рипол.",
+    "year": 2006,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 80,
+  "fields": {
+    "author": "К. Теппервайн.",
+    "name": "Школа гипноза.",
+    "made_in": "Мой мир.",
+    "year": 2006,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 81,
+  "fields": {
+    "author": "Алиса. А. Бейли.",
+    "name": "Трактат о семи лучах.",
+    "made_in": "Киев",
+    "year": 1993,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 82,
+  "fields": {
+    "author": "А. Ч. Бхактиведанта Свами Прабхупада.",
+    "name": "Наука самоосознания",
+    "made_in": "Кришна",
+    "year": 2005,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 83,
+  "fields": {
+    "author": "Г. Х. Миллер.",
+    "name": "Толкование десяти тысяч снов.",
+    "made_in": "Странник",
+    "year": 1992,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 84,
+  "fields": {
+    "author": "В. Кандыба.",
+    "name": "Загадочные сверхвозможности человека",
+    "made_in": "Лань",
+    "year": 2000,
+    "box": 4
+  }
+},
+{
+  "model": "books.books",
+  "pk": 85,
+  "fields": {
+    "author": "Г. Табачник.",
+    "name": "Последние хозяева Кремля.",
+    "made_in": "Орфей",
+    "year": 1994,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 86,
+  "fields": {
+    "author": "Ч. Мессенджер.",
+    "name": "Гладиатор Гитлера.",
+    "made_in": "Эксмо.",
+    "year": 2004,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 87,
+  "fields": {
+    "author": "А. Сульянов.",
+    "name": "Арестовать в Кремле. Берия.",
+    "made_in": "Минск.",
+    "year": 1991,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 88,
+  "fields": {
+    "author": "А. Север.",
+    "name": "Тайна сталинских репрессий. 37год.",
+    "made_in": "Алгоритм",
+    "year": 2007,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 91,
+  "fields": {
+    "author": "Б. В. Соколов",
+    "name": "Молотов",
+    "made_in": "Аст-пресс",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 92,
+  "fields": {
+    "author": "Э. Радзинский.",
+    "name": "Сталин",
+    "made_in": "Вагриус",
+    "year": 1997,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 93,
+  "fields": {
+    "author": "А. Б. Оришев",
+    "name": "В августе 1941",
+    "made_in": "Вече",
+    "year": 2011,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 94,
+  "fields": {
+    "author": "И. К. Фест.",
+    "name": "Гитлер. 3тома.",
+    "made_in": "Алетейа",
+    "year": 1993,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 95,
+  "fields": {
+    "author": "М. Г. Дроздовский",
+    "name": "Белое дело. Книга 7",
+    "made_in": "Голос",
+    "year": 1996,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 96,
+  "fields": {
+    "author": "А. И. Деникин.",
+    "name": "Белое дело. Генерал Корнилов. Книга 1.",
+    "made_in": "Голос",
+    "year": 1993,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 97,
+  "fields": {
+    "author": "В. Б. Сапунов.",
+    "name": "Враги России. Кто они?",
+    "made_in": "Астрель-спб",
+    "year": 2011,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 98,
+  "fields": {
+    "author": "И. Шамир.",
+    "name": "Каббала власти.",
+    "made_in": "Алгоритм",
+    "year": 2008,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 99,
+  "fields": {
+    "author": "А. Первушин.",
+    "name": "Оккультный Гитлер.",
+    "made_in": "Вектор",
+    "year": 2008,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 100,
+  "fields": {
+    "author": "С. Стивен.",
+    "name": "Операция \"Раскол\"",
+    "made_in": "Эксмо",
+    "year": 2003,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 101,
+  "fields": {
+    "author": "И. Фроянов.",
+    "name": "Россия погруженная в бездну.",
+    "made_in": "Алгоритм",
+    "year": 2010,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 102,
+  "fields": {
+    "author": "М. Бешлосс",
+    "name": "Измена в Кремле. Тайные соглашения Горбачёва.",
+    "made_in": "Алгоритм",
+    "year": 20010,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 103,
+  "fields": {
+    "author": "Ф. Бурлацкий",
+    "name": "Вожди и советники",
+    "made_in": "Политическая литература.",
+    "year": 1991,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 104,
+  "fields": {
+    "author": "В. В. Соколов.",
+    "name": "Тайны ВМВ. Разведка.",
+    "made_in": "Аст-пресс",
+    "year": 2003,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 105,
+  "fields": {
+    "author": "С. Рыбас.",
+    "name": "Генерал Кутепов",
+    "made_in": "Олма-пресс",
+    "year": 2000,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 106,
+  "fields": {
+    "author": "П. Карелл",
+    "name": "Дорога в никуда:вермахт и восточный фронт. Мир в войне.",
+    "made_in": "Русич.",
+    "year": 2003,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 107,
+  "fields": {
+    "author": "А. Бушков",
+    "name": "Хроника мутного времени.",
+    "made_in": "Олма-пресс",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 108,
+  "fields": {
+    "author": "С. М. Штеменко",
+    "name": "Генеральный штаб в годы войны. От Сталинграда до Берлина.",
+    "made_in": "Транзиткнига",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 109,
+  "fields": {
+    "author": "А. Б. Широкорад.",
+    "name": "Наша великая мифология. Четыре гражданских войны.",
+    "made_in": "Аст",
+    "year": 2008,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 110,
+  "fields": {
+    "author": "С. М. Штеменко",
+    "name": "Генеральный штаб. Освобождение Европы.",
+    "made_in": "Транзиткнига",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 111,
+  "fields": {
+    "author": "А. Константинов.",
+    "name": "Коррумпированная Россия.",
+    "made_in": "Олма-пресс",
+    "year": 2006,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 112,
+  "fields": {
+    "author": "А. В. Исаев",
+    "name": "От Дубно до Ростова.",
+    "made_in": "Транзиткнига",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 113,
+  "fields": {
+    "author": "А. Широкорад",
+    "name": "Битва за Чёрное море.",
+    "made_in": "Транзиткнига",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 114,
+  "fields": {
+    "author": "О. Бенюх",
+    "name": "Владыки",
+    "made_in": "Вся Москва",
+    "year": 1990,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 115,
+  "fields": {
+    "author": "О. Хлобыстова.",
+    "name": "Госбезопасность от Александра 1 до Путина",
+    "made_in": "Эксмо.",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 116,
+  "fields": {
+    "author": "Ю. Новикова",
+    "name": "Эсминцы и эскортные корабли.",
+    "made_in": "Аст",
+    "year": 2001,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 117,
+  "fields": {
+    "author": "Д. Стефан.",
+    "name": "Русские фашисты.",
+    "made_in": "Слово",
+    "year": 1992,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 118,
+  "fields": {
+    "author": "Р. Гуль.",
+    "name": "Белое движение.",
+    "made_in": "Московский рабочий.",
+    "year": 1990,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 119,
+  "fields": {
+    "author": "Е. Р. Ольховский",
+    "name": "Тайны и авантюры в Российской истории.",
+    "made_in": "Олма-пресс",
+    "year": 2003,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 120,
+  "fields": {
+    "author": "А. Помогайбо",
+    "name": "Псевдоисторик Суворов.",
+    "made_in": "Вече",
+    "year": 2002,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 121,
+  "fields": {
+    "author": "В. Быков.",
+    "name": "Его батальон",
+    "made_in": "Терра",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 122,
+  "fields": {
+    "author": "А. Бушков",
+    "name": "Россия которой не было 3.",
+    "made_in": "Олма-пресс",
+    "year": 2004,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 123,
+  "fields": {
+    "author": "А. Бутовский.",
+    "name": "Наполеон-спаситель России",
+    "made_in": "Яуза",
+    "year": 2009,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 124,
+  "fields": {
+    "author": "Б. В. Соколов.",
+    "name": "Тайны вмв. Военные тайны 20века.",
+    "made_in": "Вече",
+    "year": 2000,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 125,
+  "fields": {
+    "author": "В. Н. Шунков",
+    "name": "Танки",
+    "made_in": "Попурри",
+    "year": 2000,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 126,
+  "fields": {
+    "author": "Ф. Форсайт",
+    "name": "Кулак Аллаха",
+    "made_in": "Эксмо",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 127,
+  "fields": {
+    "author": "Г. Брянцев.",
+    "name": "Тайные тропы. Воен. Прикл.",
+    "made_in": "Вече",
+    "year": 2006,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 128,
+  "fields": {
+    "author": "П. Петров.",
+    "name": "Балтийский флот.",
+    "made_in": "Яуза",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 129,
+  "fields": {
+    "author": "А. А. Строков",
+    "name": "Вооружённые силы и военное искусство в первой мировой войне.",
+    "made_in": "Воениздат",
+    "year": 1974,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 130,
+  "fields": {
+    "author": "В. Кравицкий",
+    "name": "Я был агентом Сталина",
+    "made_in": "Терра",
+    "year": 1998,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 131,
+  "fields": {
+    "author": "Ю. Мухин",
+    "name": "Как уродуют историю твоей родины?",
+    "made_in": "Эксмо",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 132,
+  "fields": {
+    "author": "Д. Еникеева",
+    "name": "Российская политическая элита",
+    "made_in": "Транзиткнига",
+    "year": 2004,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 133,
+  "fields": {
+    "author": "Ю. Н. Богданов",
+    "name": "Строго секретно. 30лет в огпу-нквд-мвд.",
+    "made_in": "Вече",
+    "year": 2002,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 134,
+  "fields": {
+    "author": "А. Е. Тарас.",
+    "name": "Подготовка разведчика",
+    "made_in": "Харвест",
+    "year": 1998,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 135,
+  "fields": {
+    "author": "М. Калашников",
+    "name": "Битва за небеса",
+    "made_in": "Крымский мост-9Д",
+    "year": 2000,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 136,
+  "fields": {
+    "author": "Ю. Мухин",
+    "name": "Убийцы Сталина",
+    "made_in": "Яуза",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 137,
+  "fields": {
+    "author": "Стариков",
+    "name": "Покушение на Великую Победу",
+    "made_in": "Эксмо",
+    "year": 2005,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 138,
+  "fields": {
+    "author": "Э. Миддельдорф",
+    "name": "Русская кампания",
+    "made_in": "Аст",
+    "year": 2001,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 139,
+  "fields": {
+    "author": "М. Любимов",
+    "name": "Шпионы, которых я люблю и ненавижу.",
+    "made_in": "Олимп",
+    "year": 1997,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 140,
+  "fields": {
+    "author": "А. Самоваров",
+    "name": "Останутся ли в России русские",
+    "made_in": "Яуза-пресс",
+    "year": 2010,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 141,
+  "fields": {
+    "author": "А. Орлов.",
+    "name": "Тайная битва сверхдержав.",
+    "made_in": "Вече",
+    "year": 2000,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 142,
+  "fields": {
+    "author": "Н. Стариков.",
+    "name": "Ликвидация России.",
+    "made_in": "Лидер",
+    "year": 2010,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 143,
+  "fields": {
+    "author": "Н. С. Черышев.",
+    "name": "Из ГУЛАГа в бой",
+    "made_in": "Вече",
+    "year": 2006,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 145,
+  "fields": {
+    "author": "И. Л. Бунич",
+    "name": "Золото партии",
+    "made_in": "Облик",
+    "year": 1999,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 146,
+  "fields": {
+    "author": "М. Калашников",
+    "name": "Вор должен сидеть в тюрьме.",
+    "made_in": "Яуза",
+    "year": 2006,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 147,
+  "fields": {
+    "author": "Ю. Мухин.",
+    "name": "Главная антироссийская подлость",
+    "made_in": "Яуза-пресс",
+    "year": 2010,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 148,
+  "fields": {
+    "author": "Ю. В. Рубцов.",
+    "name": "Штрафники Великой Отечественной.",
+    "made_in": "Вече",
+    "year": 2008,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 149,
+  "fields": {
+    "author": "А. П. Паршев",
+    "name": "Почему Россия не Америка..",
+    "made_in": "Крымский мост-9Д",
+    "year": 1999,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 150,
+  "fields": {
+    "author": "П. Шмидт",
+    "name": "Переводчик Гитлера.",
+    "made_in": "Русич",
+    "year": 2001,
+    "box": 5
+  }
+},
+{
+  "model": "books.books",
+  "pk": 151,
+  "fields": {
+    "author": "Е Бычкова.Н.Турчанинова.",
+    "name": "Заложники света",
+    "made_in": "Издательство Альфа-книга",
+    "year": 2004,
+    "box": 3
+  }
+},
+{
+  "model": "books.books",
+  "pk": 152,
+  "fields": {
+    "author": "Кл.Саймак.",
+    "name": "Братство талисмана.",
+    "made_in": "Петроарт",
+    "year": 1992,
+    "box": 3
+  }
+},
+{
+  "model": "books.books",
+  "pk": 153,
+  "fields": {
+    "author": "А.Спрэгде Камп.Ф.Прэтт",
+    "name": "Железный замок",
+    "made_in": "Азбука классика.мягк.",
+    "year": 2004,
+    "box": 3
+  }
+},
+{
+  "model": "books.books",
+  "pk": 154,
+  "fields": {
+    "author": "А.Орлов.",
+    "name": "Бросок Саламандры.",
+    "made_in": "Эксмо",
+    "year": 2004,
+    "box": 3
+  }
+},
+{
+  "model": "books.books",
+  "pk": 156,
+  "fields": {
+    "author": "С.Алексеев.",
+    "name": "Крамола",
+    "made_in": "Олма-пресс",
+    "year": 1999,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 157,
+  "fields": {
+    "author": "А.Кардек.",
+    "name": "Книга духов.Мистика.",
+    "made_in": "Ренессанс",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 158,
+  "fields": {
+    "author": "Г.Гаррисон и Скаландис",
+    "name": "Мир смерти против Флибустьеров.",
+    "made_in": "Эксмо",
+    "year": 1998,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 159,
+  "fields": {
+    "author": "Г.Макгил.А.Левин.",
+    "name": "Последняя схватка.Армагедон 2000.Ребенок Розмари.",
+    "made_in": "Ключ-С",
+    "year": 1992,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 160,
+  "fields": {
+    "author": "Д.Ковалев.",
+    "name": "Суси-Нуар.",
+    "made_in": "Эксмо.",
+    "year": 2004,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 161,
+  "fields": {
+    "author": "М.Семенова.",
+    "name": "Волкодав.Право на поединок.",
+    "made_in": "Азбука",
+    "year": 1996,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 162,
+  "fields": {
+    "author": "Т.Старджон.",
+    "name": "Планета Норагель.Библиотека для детей.(вторая серия тома 16-25)",
+    "made_in": "Лениздат",
+    "year": 1996,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 163,
+  "fields": {
+    "author": "В.Трапезников",
+    "name": "Галактическая Саранча",
+    "made_in": "Аст",
+    "year": 1998,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 164,
+  "fields": {
+    "author": "А.Левин.",
+    "name": "Ребенок Розмари .Серия Мир мистики.Книга первая Порождение тьмы.",
+    "made_in": "Ренессанс",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 165,
+  "fields": {
+    "author": "Д.Уитли",
+    "name": "Им помогали силы тьмы.Серия Мир мистики.",
+    "made_in": "Ренессанс",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 166,
+  "fields": {
+    "author": "В.Малинин.",
+    "name": "Мятеж.Серия.Звездный лабиринт.",
+    "made_in": "Аст",
+    "year": 2004,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 167,
+  "fields": {
+    "author": "С.Алексеев.",
+    "name": "Пришельцы.",
+    "made_in": "Олма-пресс",
+    "year": 1997,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 168,
+  "fields": {
+    "author": "У.У.Джонстоун.",
+    "name": "Детские игры.Библиотека БОМ.Остросюжетная Мистика.",
+    "made_in": "Ключ-С",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 169,
+  "fields": {
+    "author": "Р.Злотников.",
+    "name": "Шпаги над звёздами.Абсолютное оружие.",
+    "made_in": "Эксма-пресс",
+    "year": 1998,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 170,
+  "fields": {
+    "author": "М.Лейнстер.Р.А.Хайнлайн.К.Каап.",
+    "name": "Звездный старатель.Дети Мафасаила.Знаки Хаоса",
+    "made_in": "Мир и семья.",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 171,
+  "fields": {
+    "author": "В.Головачев.",
+    "name": "Реликт.Том 2",
+    "made_in": "Эксмо-Пресс",
+    "year": 1998,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 172,
+  "fields": {
+    "author": "А.Горюнов.",
+    "name": "На пути орды.Варяжский десант.",
+    "made_in": "Крылов.",
+    "year": 2008,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 173,
+  "fields": {
+    "author": "М.Тырин.",
+    "name": "Фантомная боль.Абсолютное оружие.",
+    "made_in": "Эксмо-Пресс",
+    "year": 1998,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 174,
+  "fields": {
+    "author": "К.Саймак.Р.Брэдбери.",
+    "name": "Город. Рассказы",
+    "made_in": "Советский писатель.Олимп.",
+    "year": 1991,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 175,
+  "fields": {
+    "author": "Р.Брэдбери.",
+    "name": "О скитаниях вечных и о Земле.",
+    "made_in": "Правда.",
+    "year": 1987,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 176,
+  "fields": {
+    "author": "Ф.П.Вильсон.",
+    "name": "Застава.Библиотека БОМ.Остросюжетная мистика.",
+    "made_in": "Ключ-С",
+    "year": 1992,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 177,
+  "fields": {
+    "author": "М.Рапов",
+    "name": "Зори над Русью.",
+    "made_in": "Рипол",
+    "year": 1994,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 178,
+  "fields": {
+    "author": "С.Алесеев.",
+    "name": "Аз бога ведаю",
+    "made_in": "Олма-пресс",
+    "year": 1999,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 179,
+  "fields": {
+    "author": "А.Азимов.",
+    "name": "Камешек в небе",
+    "made_in": "ИПКА Паблисити",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 180,
+  "fields": {
+    "author": "Д.Вандри",
+    "name": "Гигантская плазма.Крылатая смерть.Галерея мистикаи.",
+    "made_in": "Деком",
+    "year": 1993,
+    "box": 9
+  }
+},
+{
+  "model": "books.books",
+  "pk": 181,
+  "fields": {
+    "author": "Б.и А.Стругацкие.",
+    "name": "Пять ложек элексира.",
+    "made_in": "Наука.",
+    "year": 1990,
+    "box": 9
+  }
+}
 ]
