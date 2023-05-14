@@ -10,10 +10,9 @@
     <div id="container">
         <div id="header">Добро пожаловать!</div>
         <p>Выберите раздел:</p>
-        {% for title, url in pages.items %}
-            <a href="{{ url }}">{{ title }}</a>
+            <a href="{% url 'admin:index' %}">Админка</a>
             <br>
-        {% endfor %}
+            <a href="{% url 'api-root' %}">API</a>
         <script type="text/javascript" src="{% static 'admin/js/core.js' %}"></script>
     </div>
 </body>
