@@ -63,7 +63,7 @@ class EndpointsTestCase(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(response.data['count'], count + 1)
         self.assertEqual(response.data['results'][0]['name'], 'Test Book')
-        self.assertEqual(response.data['results'][0]['box_name'], 'Test Box')
+        self.assertEqual(response.data['results'][0]['box'], 'Test Box')
         
     def test_photo(self):
         count = Photos.objects.count()

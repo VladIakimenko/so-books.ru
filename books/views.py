@@ -24,14 +24,4 @@ class BoxesViewSet(viewsets.ModelViewSet):
 
 
 def home_view(request):
-    template_name = 'home.html'
-
-    pages = {
-        'Admin': reverse('admin:index'),
-        'API': reverse('api-root'),
-    }
-    
-    context = {
-        'pages': pages
-    }
-    return render(request, template_name, context)
+    return render(request, 'home.html')
