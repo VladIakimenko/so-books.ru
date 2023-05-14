@@ -38,8 +38,6 @@ services:
     container_name: hermes_django
     env_file:
       - .env     
-    ports:
-      - "8000:8000"
     networks:
       - hermes_net
     restart: unless-stopped
