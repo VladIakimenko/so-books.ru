@@ -32,7 +32,6 @@ deploy_development:
     refs:
       - development
   script:
-    - docker-compose down
     - printf '%s\n' "$ENV_FILE" > .env
     - docker-compose up --force-recreate --build --no-deps -d
     
@@ -44,7 +43,6 @@ deploy_production:
     refs:
       - master
   script:
-    - docker-compose down
     - printf '%s\n' "$ENV_FILE" > .env
     - docker-compose up --force-recreate --build --no-deps -d
 
