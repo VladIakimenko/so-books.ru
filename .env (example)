@@ -1,0 +1,7 @@
+SECRET_KEY=
+POSTGRES_DB=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+HOST=postgres		           # postgres if DEBUG=False	localhost if DEBUG=True
+PORT=5432
+DEBUG=False
